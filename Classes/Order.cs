@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Program
+    class Order
     {
-        static void Main(string[] args)
-        {
-            var customer = new Customer(1, "John");
-        }
     }
 }
