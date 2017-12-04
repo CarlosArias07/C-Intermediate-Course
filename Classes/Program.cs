@@ -10,6 +10,25 @@ namespace Classes
     {
         static void Main(string[] args)
         {
+
+        }
+
+        #region Previous Lectures - Fields
+        /*static void Main(string[] args)
+        {
+            var customer = new Customer(1);
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
+
+            customer.Promote();
+
+            Console.WriteLine(customer.Orders.Count());
+        }*/
+        #endregion
+
+        #region Previous Lectures
+        /*static void Main(string[] args)
+        {
             try
             {
                 var num = int.Parse("abc");
@@ -51,6 +70,7 @@ namespace Classes
             {
                 Console.WriteLine("An unexpected error ocurred...");
             }
-        }
+        }*/
+        #endregion
     }
 }
