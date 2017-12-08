@@ -8,6 +8,28 @@ namespace Classes
 {
     class Person
     {
+        #region Previous Lectures - Properties
+        /*public string Name { get; set; }
+        public string Username { get; set; }
+        public DateTime Birthdate { get; set; }
+        public int Age
+        {
+            get
+            {
+                var timeSpan = DateTime.Today - Birthdate;
+                var years = timeSpan.Days / 365;
+                return years;
+            }
+        }
+
+        public Person(DateTime birthdate)
+        {
+            Birthdate = birthdate;
+        }*/
+        #endregion
+
+        #region Previous Lectures - Access Modifiers
+        /*
         private DateTime _birthdate;
 
         public void SetBirthdate(DateTime birthdate)
@@ -19,5 +41,7 @@ namespace Classes
         {
             return _birthdate;
         }
+        */
+        #endregion
     }
 }
